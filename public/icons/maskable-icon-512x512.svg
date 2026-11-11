@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="92.16" fill="#101820"/>
+  <rect x="4" y="4" width="504" height="504" rx="81.92" fill="none" stroke="#263640" stroke-width="4"/>
+  
+  <!-- Caliper / Gear Industrial Motif -->
+  <g transform="translate(256, 256)">
+    <!-- Outer Gear teeth ring -->
+    <circle r="194.56" fill="none" stroke="#E5A34B" stroke-width="25.6" stroke-dasharray="30.72 20.48"/>
+    <circle r="112.64" fill="#19252F" stroke="#CAD2D7" stroke-width="10.24"/>
+    <!-- Center Tool Punch Cross -->
+    <path d="M-20.48 -215.04 L20.48 -215.04 L20.48 215.04 L-20.48 215.04 Z" fill="#E5A34B"/>
+    <path d="M-215.04 -20.48 L215.04 -20.48 L215.04 20.48 L-215.04 20.48 Z" fill="#E5A34B"/>
+    <circle r="61.44" fill="#101820" stroke="#E5A34B" stroke-width="10.24"/>
+    <circle r="24.576" fill="#E5A34B"/>
+  </g>
+  
+  <!-- Industrial Accent Lines -->
+  <line x1="61.44" y1="450.56" x2="450.56" y2="450.56" stroke="#E5A34B" stroke-width="4"/>
+  <text x="256" y="432.128" font-family="monospace" font-size="40.96" font-weight="bold" fill="#E9EFF2" text-anchor="middle" letter-spacing="2">TOOLING</text>
+</svg>
