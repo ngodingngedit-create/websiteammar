@@ -1,0 +1,116 @@
+[
+  {
+    "id": "dies-blanking",
+    "categoryId": "dies",
+    "name": "Blanking Die",
+    "summary": "Memotong kontur luar lembaran pelat baja dari coil untuk menghasilkan lembaran awal (blank)."
+  },
+  {
+    "id": "dies-piercing",
+    "categoryId": "dies",
+    "name": "Piercing Die",
+    "summary": "Melubangi lembaran pelat untuk lubang baut, celah ventilasi, atau jalur routing kabel."
+  },
+  {
+    "id": "dies-bending",
+    "categoryId": "dies",
+    "name": "Bending & Flanging Die",
+    "summary": "Menekuk pelat pada sudut tertentu atau membuat flens pengelasan pada panel pintu/chassis."
+  },
+  {
+    "id": "dies-drawing",
+    "categoryId": "dies",
+    "name": "Drawing Die",
+    "summary": "Menarik dan meregangkan lembaran pelat menjadi bentuk cekung mangkok seperti tangki atau fender."
+  },
+  {
+    "id": "dies-forming",
+    "categoryId": "dies",
+    "name": "Forming Die",
+    "summary": "Membentuk kontur permukaan kompleks 3D, embossing pola, bead pengaku, atau coining presisi."
+  },
+  {
+    "id": "dies-trimming",
+    "categoryId": "dies",
+    "name": "Trimming Die",
+    "summary": "Memotong kelebihan material tepi (flash/flange rim) setelah proses drawing/forming."
+  },
+  {
+    "id": "dies-progressive",
+    "categoryId": "dies",
+    "name": "Progressive Die",
+    "summary": "Multi-stasiun terintegrasi dalam satu cetakan kontinu untuk part ukuran kecil-menengah bervolume tinggi."
+  },
+  {
+    "id": "dies-transfer",
+    "categoryId": "dies",
+    "name": "Transfer Die",
+    "summary": "Rangkaian cetakan terpisah dengan mekanisme robot/transfer finger untuk panel bodi berukuran besar."
+  },
+  {
+    "id": "mold-two-plate",
+    "categoryId": "mold",
+    "name": "Two-Plate Mold",
+    "summary": "Konfigurasi cetakan standar dengan satu bidang pisah (parting line), konstruksi kokoh dan ekonomis."
+  },
+  {
+    "id": "mold-three-plate",
+    "categoryId": "mold",
+    "name": "Three-Plate Mold",
+    "summary": "Cetakan dengan pelat stripper terpisah untuk pemotongan otomatis sprue dan gate pin-point."
+  },
+  {
+    "id": "mold-hot-runner",
+    "categoryId": "mold",
+    "name": "Hot Runner Mold",
+    "summary": "Sistem manifold dan nosel berpemanas tanpa limbah sisa runner untuk part otomotif bervolume tinggi."
+  },
+  {
+    "id": "mold-slide-lifter",
+    "categoryId": "mold",
+    "name": "Slide & Lifter Mold",
+    "summary": "Mekanisme geser samping mekanis/hidrolik untuk mencetak kontur undercut, clip, atau snap-fit interior."
+  },
+  {
+    "id": "mold-die-casting",
+    "categoryId": "mold",
+    "name": "Die Casting Mold",
+    "summary": "Cetakan baja tahan panas bertekanan tinggi untuk logam cair non-ferrous seperti aluminium blok mesin."
+  },
+  {
+    "id": "jig-welding",
+    "categoryId": "jig-fixture",
+    "name": "Welding Jig",
+    "summary": "Peranti penahan presisi untuk pengelasan titik (spot welding) atau laser bodi mobil (Body-in-White)."
+  },
+  {
+    "id": "jig-assembly",
+    "categoryId": "jig-fixture",
+    "name": "Assembly Jig",
+    "summary": "Alat bantu perakitan modular untuk konsistensi pemasangan dasbor, modul pintu, dan wiring harness."
+  },
+  {
+    "id": "jig-drilling",
+    "categoryId": "jig-fixture",
+    "name": "Drilling Jig",
+    "summary": "Jig pemandu bor presisi tinggi menggunakan hardened drill bushing untuk akurasi posisi lubang."
+  },
+  {
+    "id": "jig-machining",
+    "categoryId": "jig-fixture",
+    "name": "Machining Fixture",
+    "summary": "Fixture pemegang kaku pada mesin CNC milling/torsi tinggi untuk blok silinder dan steering knuckle."
+  },
+  {
+    "id": "jig-checking",
+    "categoryId": "jig-fixture",
+    "name": "Checking Fixture (Gauge)",
+    "summary": "Alat kaliber ukur inspeksi cepat gap dan flushness komponen pelat atau bumper di line produksi."
+  },
+  {
+    "id": "jig-inspection",
+    "categoryId": "jig-fixture",
+    "name": "Inspection / CMM Fixture",
+    "summary": "Dudukan stabil bebas tegangan untuk pengukuran koordinat 3D pada mesin CMM (Coordinate Measuring Machine)."
+  }
+]

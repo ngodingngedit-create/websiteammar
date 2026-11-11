@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dies",
+    "name": "DIES",
+    "subtitle": "Stamping Die Assembly",
+    "poster": "/posters/assembly-dies.webp",
+    "modelFile": "/models/assembly-dies.glb",
+    "summary": "Perkakas tekan (stamping die) presisi tinggi untuk memotong, menekuk, menarik, dan membentuk lembaran pelat logam bodi serta rangka otomotif.",
+    "highlights": ["Upper Shoe & Bolster", "Punch & Die Cavity", "Nitrogen Gas Spring", "Pillar Guide Precision"]
+  },
+  {
+    "id": "mold",
+    "name": "MOLD",
+    "subtitle": "Injection Mold Assembly",
+    "poster": "/posters/assembly-mold.webp",
+    "modelFile": "/models/assembly-mold.glb",
+    "summary": "Cetakan injeksi plastik presisi dan die casting bertekanan tinggi untuk memproduksi panel interior, bumper, komponen kelistrikan, dan blok transmisi.",
+    "highlights": ["A/B Cavity & Core", "Hot Runner Manifold", "Precision Ejector System", "Cooling Circuit"]
+  },
+  {
+    "id": "jig-fixture",
+    "name": "JIG & FIXTURE",
+    "subtitle": "Tooling Fixture Assembly",
+    "poster": "/posters/assembly-jig-fixture.webp",
+    "modelFile": "/models/assembly-jig-fixture.glb",
+    "summary": "Peranti pemegang, pengarah, dan pemeriksa dimensi untuk memastikan konsistensi, keselamatan, dan toleransi perakitan pada lini bodi dan pemesinan.",
+    "highlights": ["Precision Ground Base", "Locating Pin Matrix", "Toggle Clamping Arm", "Bushing Guide Rest"]
+  }
+]

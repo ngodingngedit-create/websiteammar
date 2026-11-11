@@ -1,0 +1,2908 @@
+[
+  {
+    "id": "punch",
+    "name": "Punch",
+    "alias": [
+      "Pons",
+      "Piercing Punch",
+      "Cutting Punch"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-piercing",
+      "dies-blanking",
+      "dies-progressive",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Pemotong",
+      "Pembentuk"
+    ],
+    "summary": "Komponen jantan bergerak yang menekan pelat masuk ke die block untuk memotong atau membentuk.",
+    "description": "Punch adalah elemen potong dan bentuk aktif pada upper die set. Bergerak translasi vertikal mengikuti gerakan ram mesin press untuk menembus atau meregangkan lembaran pelat logam.",
+    "howItWorks": "Dipasang pada punch plate di upper die. Saat press bergerak ke titik mati bawah, punch memotong pelat dengan celah (clearance) presisi terhadap die block.",
+    "materials": [
+      "SKD11",
+      "SKH51 (High-Speed Steel)",
+      "Carbide V30"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan tipikal",
+        "value": "60–62 HRC"
+      },
+      {
+        "label": "Toleransi diameter",
+        "value": "+0.005 / 0.000 mm"
+      },
+      {
+        "label": "Clearance potong",
+        "value": "5% - 10% tebal pelat"
+      }
+    ],
+    "automotiveUse": [
+      "Lubang mounting bracket chassis",
+      "Kontur blank pintu mobil",
+      "Perforasi floor pan"
+    ],
+    "commonIssues": [
+      "Chipping pada ujung mata potong",
+      "Aus abrasif tepi potong",
+      "Patah akibat gaya eksentrik"
+    ],
+    "related": [
+      "die-block-insert",
+      "stripper-plate",
+      "pilot-pin",
+      "guide-pin-bushing"
+    ],
+    "modelId": "model-punch"
+  },
+  {
+    "id": "die-block-insert",
+    "name": "Die Block Insert",
+    "alias": [
+      "Die Button",
+      "Matras Betina",
+      "Insert Potong"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-blanking",
+      "dies-piercing",
+      "dies-trimming",
+      "dies-progressive"
+    ],
+    "functions": [
+      "Pemotong",
+      "Pembentuk"
+    ],
+    "summary": "Blok sisipan betina keras tempat bertemunya punch untuk proses shearing dan blanking pelat.",
+    "description": "Komponen dies stasioner berkekerasan tinggi yang memiliki profil lubang potong tajam dengan sudut pelepasan (die relief angle) agar sisa potongan (scrap) dapat jatuh bebas.",
+    "howItWorks": "Tertanam kokoh pada die plate bawah. Menerima penetrasi punch dan menahan beban potong geser dinamis dengan dukungan bantalan bawah die shoe.",
+    "materials": [
+      "SKD11",
+      "DC53",
+      "SLD-MAGIC"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan tipikal",
+        "value": "60–64 HRC"
+      },
+      {
+        "label": "Die relief taper",
+        "value": "0.5° - 1.5° per sisi"
+      },
+      {
+        "label": "Kekasaran permukaan lubang",
+        "value": "Ra 0.4 µm"
+      }
+    ],
+    "automotiveUse": [
+      "Die pemotong kontur outer panel",
+      "Lubang baut roda pada disc brake dust cover"
+    ],
+    "commonIssues": [
+      "Galling material pelat pada dinding potong",
+      "Retak lelah pada sudut tajam lubang"
+    ],
+    "related": [
+      "punch",
+      "stripper-plate",
+      "wear-plate",
+      "die-set-upper-lower"
+    ],
+    "modelId": "model-die-block-insert"
+  },
+  {
+    "id": "die-set-upper-lower",
+    "name": "Die Set (Upper & Lower Shoe)",
+    "alias": [
+      "Die Shoe",
+      "Rangka Cetakan Stamping",
+      "Pelat Dasar Dies"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-blanking",
+      "dies-bending",
+      "dies-drawing",
+      "dies-progressive",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Pemandu",
+      "Penjepit"
+    ],
+    "summary": "Fondasi pelat atas dan bawah yang menopang seluruh rakitan komponen die stamping secara kaku.",
+    "description": "Rangka struktural utama penahan beban deformasi tekan ribuan ton. Menghubungkan press ram mesin ke punch holder dan die bed mesin ke lower die plate.",
+    "howItWorks": "Upper shoe terhubung ke ram mesin press bergerak vertikal dipandu guide post menuju lower shoe yang terkunci pada bolster plate mesin.",
+    "materials": [
+      "SS400",
+      "S50C",
+      "FC300 (Cast Iron)"
+    ],
+    "specs": [
+      {
+        "label": "Ketebalan pelat",
+        "value": "60–160 mm"
+      },
+      {
+        "label": "Paralelisme permukaan",
+        "value": "0.02 mm / 1000 mm"
+      },
+      {
+        "label": "Kekuatan tarik",
+        "value": "≥ 450 MPa"
+      }
+    ],
+    "automotiveUse": [
+      "Die stamping pintu samping mobil",
+      "Stamping pilar bodi mobil"
+    ],
+    "commonIssues": [
+      "Defleksi elastis berlebih saat beban puncak",
+      "Korosi permukaan referensi"
+    ],
+    "related": [
+      "guide-pin-bushing",
+      "die-block-insert",
+      "punch",
+      "shim"
+    ],
+    "modelId": "model-die-set-upper-lower"
+  },
+  {
+    "id": "stripper-plate",
+    "name": "Stripper Plate",
+    "alias": [
+      "Pelat Pelapas",
+      "Stripper Pad",
+      "Pelat Penjepit Strip"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-blanking",
+      "dies-piercing",
+      "dies-progressive"
+    ],
+    "functions": [
+      "Penjepit",
+      "Pengeluar",
+      "Pemandu"
+    ],
+    "summary": "Pelat bermuatan pegas yang menjepit pelat sebelum pemotongan dan melepas pelat dari punch.",
+    "description": "Komponen multiguna pada progressive die yang menahan lembaran pelat tetap rata saat pemotongan dan mencegah pelat terbawa naik menyangkut pada badan punch.",
+    "howItWorks": "Ditekan lebih dulu oleh pegas die saat ram turun untuk menjepit strip, lalu punch menembus pelat. Saat ram naik, gaya pegas menahan pelat agar punch lepas bebas.",
+    "materials": [
+      "S50C",
+      "SKD11",
+      "SCM440"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan kontak",
+        "value": "52–56 HRC"
+      },
+      {
+        "label": "Clearance terhadap punch",
+        "value": "0.01 - 0.02 mm per sisi"
+      },
+      {
+        "label": "Tekanan jepit awal",
+        "value": "10–25% gaya potong"
+      }
+    ],
+    "automotiveUse": [
+      "Stamping terminal konektor kabel baterai EV",
+      "Braket sensor airbag"
+    ],
+    "commonIssues": [
+      "Keausan lubang pemandu punch",
+      "Pegas lelah patah menyebabkan jamming"
+    ],
+    "related": [
+      "punch",
+      "die-spring",
+      "nitrogen-gas-spring",
+      "strip-guide"
+    ],
+    "modelId": "model-stripper-plate"
+  },
+  {
+    "id": "blank-holder-binder",
+    "name": "Blank Holder / Binder",
+    "alias": [
+      "Draw Ring",
+      "Binder Ring",
+      "Ring Penahan Tarikan"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-drawing",
+      "dies-forming",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Penjepit",
+      "Pembentuk"
+    ],
+    "summary": "Cincin penekan flens pelat logam untuk mengontrol aliran material masuk ke cavity drawing.",
+    "description": "Komponen esensial proses deep drawing yang memberikan gaya jepit terkontrol pada pinggiran pelat blank guna mencegah timbulnya kerutan (wrinkling) atau robek.",
+    "howItWorks": "Digerakkan oleh bantalan hidrolik (die cushion) atau gas spring. Menjepit flens lembaran pelat melawan punch drawing dengan tekanan seimbang selagi material ditarik.",
+    "materials": [
+      "FCD500",
+      "FCD600",
+      "SKD11"
+    ],
+    "specs": [
+      {
+        "label": "Tekanan cushion tipikal",
+        "value": "5–15 MPa"
+      },
+      {
+        "label": "Kekasaran permukaan kontak",
+        "value": "Ra 0.2 µm (Polished)"
+      },
+      {
+        "label": "Hard chrome coating",
+        "value": "20–30 µm"
+      }
+    ],
+    "automotiveUse": [
+      "Deep drawing panel kap mesin (hood)",
+      "Drawing panel fender depan",
+      "Tangki bahan bakar baja"
+    ],
+    "commonIssues": [
+      "Wrinkling akibat gaya penahan kurang",
+      "Tearing atau pecah akibat gaya penahan terlalu besar"
+    ],
+    "related": [
+      "nitrogen-gas-spring",
+      "die-block-insert",
+      "wear-plate",
+      "die-set-upper-lower"
+    ],
+    "modelId": "model-blank-holder-binder"
+  },
+  {
+    "id": "guide-pin-bushing",
+    "name": "Guide Pin & Bushing",
+    "alias": [
+      "Pillar Post",
+      "Bushing Pemandu Dies",
+      "Tiang Pemandu"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-blanking",
+      "dies-piercing",
+      "dies-bending",
+      "dies-drawing",
+      "dies-progressive",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Pasangan pin dan selongsong presisi untuk menyelaraskan cetakan atas dan cetakan bawah.",
+    "description": "Sistem alignment presisi tinggi antara upper shoe dan lower shoe. Menjamin alignment clearance punch dan die tetap konstan di rentang mikron selama siklus penekanan press.",
+    "howItWorks": "Guide pin terpasang tegak lurus pada satu shoe meluncur masuk ke dalam bronze bushing berminyak atau ball bearing cage pada shoe lawan saat dies menutup.",
+    "materials": [
+      "SUJ2 (Bearing Steel)",
+      "Kuningan Bronze berlapis grafit (CuZn25Al5)"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan pin",
+        "value": "60–64 HRC (Induction hardened)"
+      },
+      {
+        "label": "Toleransi clearance",
+        "value": "0.005–0.012 mm"
+      },
+      {
+        "label": "Kekasaran permukaan",
+        "value": "Ra 0.1 µm"
+      }
+    ],
+    "automotiveUse": [
+      "Penyelarasan semua tipe stamping die bodi",
+      "Sub-press die komponen transmisi"
+    ],
+    "commonIssues": [
+      "Goresan aus akibat pelumasan kurang",
+      "Misalignment sudut akibat defleksi ram"
+    ],
+    "related": [
+      "die-set-upper-lower",
+      "guide-pillar-bushing",
+      "drill-bushing",
+      "wear-plate"
+    ],
+    "modelId": "model-guide-pin-bushing"
+  },
+  {
+    "id": "die-spring",
+    "name": "Die Spring (Helical)",
+    "alias": [
+      "Pegas Koil Dies",
+      "Pegas Tekan Beban Berat",
+      "JIS Die Spring"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-blanking",
+      "dies-piercing",
+      "dies-bending",
+      "dies-progressive"
+    ],
+    "functions": [
+      "Pengeluar",
+      "Penjepit"
+    ],
+    "summary": "Pegas tekan penampang kawat persegi kaku untuk menghasilkan gaya stripper dan lifter.",
+    "description": "Pegas khusus berprofil persegi yang dirancang untuk deformasi defleksi tinggi pada ruang kompak serta menahan siklus jutaan tumbukan berulang.",
+    "howItWorks": "Dikompresi saat upper die turun menabrak stock pelat. Energi elastis yang tersimpan langsung mendorong balik stripper plate atau lifter saat upper die mulai naik.",
+    "materials": [
+      "SWOSC-V (Silicon Chrome Steel)",
+      "50CrV4"
+    ],
+    "specs": [
+      {
+        "label": "Grade beban (Warna JIS)",
+        "value": "Kuning (Extra Heavy) / Cokelat (Ultra Heavy)"
+      },
+      {
+        "label": "Defleksi maksimum",
+        "value": "25% - 40% panjang bebas"
+      },
+      {
+        "label": "Umur kelelahan",
+        "value": "> 1.000.000 siklus"
+      }
+    ],
+    "automotiveUse": [
+      "Mekanisme stripper plate pada bracket progressive die",
+      "Return lifter strip material"
+    ],
+    "commonIssues": [
+      "Kelelahan patah kawat pegas",
+      "Penurunan gaya elastis (settling loss)"
+    ],
+    "related": [
+      "nitrogen-gas-spring",
+      "stripper-plate",
+      "lifter-pad",
+      "punch"
+    ],
+    "modelId": "model-die-spring"
+  },
+  {
+    "id": "nitrogen-gas-spring",
+    "name": "Nitrogen Gas Spring",
+    "alias": [
+      "Gas Spring Dies",
+      "Tabung Nitrogen Tekan",
+      "Nitrogen Cylinder"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-drawing",
+      "dies-bending",
+      "dies-forming",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Penjepit",
+      "Pengeluar"
+    ],
+    "summary": "Silinder nitrogen bertekanan tinggi untuk menghasilkan gaya jepit sangat besar dan konstan.",
+    "description": "Unit kompak penghasil gaya pneumatik tinggi bertekanan gas nitrogen hingga 150-180 bar. Mampu menggantikan puluhan coil spring dengan gaya yang lebih seragam.",
+    "howItWorks": "Batang piston ditekan oleh binder plate mendorong gas nitrogen di dalam silinder. Volume ruang gas yang menyusut memberikan gaya reaksi stabil sepanjang langkah penekanan.",
+    "materials": [
+      "Baja Paduan 42CrMo4",
+      "Piston Rod Hard Chrome Plated"
+    ],
+    "specs": [
+      {
+        "label": "Tekanan gas awal",
+        "value": "150–180 bar"
+      },
+      {
+        "label": "Kapasitas gaya tekan",
+        "value": "7.5 kN – 200 kN per silinder"
+      },
+      {
+        "label": "Suhu operasional maks",
+        "value": "80 °C"
+      }
+    ],
+    "automotiveUse": [
+      "Penahan flens draw binder panel atap mobil",
+      "Bending die flens pintu samping"
+    ],
+    "commonIssues": [
+      "Kebocoran seal silinder akibat serpihan gram",
+      "Pecah piston seal karena kecepatan berlebih"
+    ],
+    "related": [
+      "die-spring",
+      "blank-holder-binder",
+      "die-set-upper-lower",
+      "stripper-plate"
+    ],
+    "modelId": "model-nitrogen-gas-spring"
+  },
+  {
+    "id": "pilot-pin",
+    "name": "Pilot Pin",
+    "alias": [
+      "Pin Pemandu Strip",
+      "Locating Pilot",
+      "Bullet Nose Pin"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-progressive",
+      "dies-transfer",
+      "dies-piercing"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pengukur"
+    ],
+    "summary": "Pin berujung tirus peluru untuk memposisikan strip pelat tepat di stasiun progressive die.",
+    "description": "Pin pemandu posisi akurat yang masuk ke lubang pandu awal (pilot hole) pada strip material sesaat sebelum punch utama memotong atau membentuk komponen.",
+    "howItWorks": "Ujung berbentuk ogive peluru masuk ke lubang strip mendahului pisau potong, mengoreksi pergeseran pitch strip dari feeder mesin press sebesar ±0.2 mm.",
+    "materials": [
+      "SKD11",
+      "SUJ2"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan tipikal",
+        "value": "58–62 HRC"
+      },
+      {
+        "label": "Bentuk hidung",
+        "value": "Ogive bullet / Conical radius"
+      },
+      {
+        "label": "Akurasi pitch lokasi",
+        "value": "±0.003 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Indexing pitch terminal connector EV",
+      "Progressive stamping engsel kap mesin"
+    ],
+    "commonIssues": [
+      "Ujung pin patah jika strip meleset terlalu jauh",
+      "Goresan dinding lubang strip"
+    ],
+    "related": [
+      "punch",
+      "stripper-plate",
+      "strip-guide",
+      "locating-pin-round"
+    ],
+    "modelId": "model-pilot-pin"
+  },
+  {
+    "id": "stopper-gauge-block",
+    "name": "Stopper Gauge Block",
+    "alias": [
+      "Batas Langkah Dies",
+      "Stop Block",
+      "Distance Block"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-bending",
+      "dies-forming",
+      "dies-blanking",
+      "dies-trimming"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pengukur"
+    ],
+    "summary": "Blok baja keras pembatas tinggi langkah penekanan dies saat mencapai titik mati bawah.",
+    "description": "Blok penahan batas akhir penutupan cetakan atas dan bawah. Mencegah beban berlebih menimpa punch tajam serta menjaga ketinggian bending dan forming tetap konsisten.",
+    "howItWorks": "Terpasang pada sudut die shoe. Saat press ram tiba di TMB, blok ini saling kontak meredam sisa benturan gaya press.",
+    "materials": [
+      "S50C",
+      "SCM440",
+      "SKD11"
+    ],
+    "specs": [
+      {
+        "label": "Tinggi blok terkalibrasi",
+        "value": "Toleransi ±0.01 mm berpasangan"
+      },
+      {
+        "label": "Kekerasan permukaan kontak",
+        "value": "50–55 HRC"
+      },
+      {
+        "label": "Kanal pelumasan pembuangan",
+        "value": "Alur silang pelumas"
+      }
+    ],
+    "automotiveUse": [
+      "Batas bending bracket suspensi",
+      "Stop block forming tunnel tengah kabin"
+    ],
+    "commonIssues": [
+      "Deformasi permukaan kontak akibat tonase berlebih",
+      "Ketinggian tidak sinkron antar sudut"
+    ],
+    "related": [
+      "die-set-upper-lower",
+      "shim",
+      "cam-unit",
+      "blank-holder-binder"
+    ],
+    "modelId": "model-stopper-gauge-block"
+  },
+  {
+    "id": "cam-unit",
+    "name": "Cam Unit (Die Cam)",
+    "alias": [
+      "Mekanisme Sudut Dies",
+      "Aerial Cam",
+      "Die Slide Unit"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-piercing",
+      "dies-trimming",
+      "dies-bending",
+      "dies-forming"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pemotong",
+      "Pemandu"
+    ],
+    "summary": "Unit pengubah gerak tekan vertikal mesin press menjadi gerakan potong atau tekuk horizontal.",
+    "description": "Mekanisme baji (wedge cam) sudut yang memungkinkan pekerjaan piercing atau trimming pada sisi lateral part bodi tanpa membalik posisi lembaran pelat.",
+    "howItWorks": "Driver cam di upper shoe menekan cam slider di lower shoe melalui bidang miring bersudut (cam angle 15°-60°), menggerakkan punch ke arah samping horizontal.",
+    "materials": [
+      "FCD600",
+      "SCM440",
+      "Baja Paduan dengan Bronze Wear Plate"
+    ],
+    "specs": [
+      {
+        "label": "Gaya dorong kerja",
+        "value": "30 kN – 500 kN"
+      },
+      {
+        "label": "Sudut cam tipikal",
+        "value": "15° – 60°"
+      },
+      {
+        "label": "Akurasi pengulangan slider",
+        "value": "±0.01 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Piercing lubang samping pilar B",
+      "Trimming flens samping pintu mobil luar"
+    ],
+    "commonIssues": [
+      "Keausan pelat gesek cam wedge",
+      "Kegagalan pegas pembalik (spring return)"
+    ],
+    "related": [
+      "wear-plate",
+      "punch",
+      "slide-core",
+      "die-block-insert"
+    ],
+    "modelId": "model-cam-unit"
+  },
+  {
+    "id": "lifter-pad",
+    "name": "Lifter Pad",
+    "alias": [
+      "Pengangkat Strip",
+      "Stock Lifter",
+      "Lifter Pin"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-progressive",
+      "dies-bending",
+      "dies-forming",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Pengeluar",
+      "Pemandu"
+    ],
+    "summary": "Bantalan pengangkat strip bermuatan pegas untuk menaikkan lembaran pelat melewati tonjolan die.",
+    "description": "Komponen dinamis pengangkat strip lembaran material dari permukaan rongga die plate bawah sehingga strip dapat maju ke stasiun berikutnya tanpa tersangkut.",
+    "howItWorks": "Saat dies membuka, pegas lifter mendorong pad ke atas mengangkat lembaran pelat 10-50 mm dari die cavity, siap dimajukan oleh sistem feeder.",
+    "materials": [
+      "S45C",
+      "SCM440 Carburized"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan permukaan atas",
+        "value": "50–54 HRC"
+      },
+      {
+        "label": "Tinggi angkat gerak",
+        "value": "15–60 mm"
+      },
+      {
+        "label": "Radius chamfer kontak",
+        "value": "R 2.0 mm halus"
+      }
+    ],
+    "automotiveUse": [
+      "Pengangkat strip progresif bracket knalpot",
+      "Lifter panel pintu pada transfer die"
+    ],
+    "commonIssues": [
+      "Ketinggian angkat macet oleh serpihan logam scrap",
+      "Pegas dalam lifter patah lelah"
+    ],
+    "related": [
+      "die-spring",
+      "strip-guide",
+      "stripper-plate",
+      "stopper-gauge-block"
+    ],
+    "modelId": "model-lifter-pad"
+  },
+  {
+    "id": "strip-guide",
+    "name": "Strip Guide",
+    "alias": [
+      "Pemandu Strip Pelat",
+      "Stock Guide Rail",
+      "Feeder Rail"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-progressive",
+      "dies-blanking",
+      "dies-piercing"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Rel pemandu lateral yang mengarahkan tepi lembaran strip coil berjalan lurus di dalam dies.",
+    "description": "Sepasang rel baja paralel yang membatasi gerakan lateral gulungan pelat coil sepanjang stasiun kerja progressive die menuju stasiun pemotong akhir.",
+    "howItWorks": "Terpasang di sisi kiri dan kanan die plate dengan celah sedikit lebih lebar dari lebar strip coil pelat baja, menuntun langkah feeder press.",
+    "materials": [
+      "SKD11",
+      "S50C Hardened"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan rel alur",
+        "value": "55–58 HRC"
+      },
+      {
+        "label": "Celah pemandu",
+        "value": "+0.5 mm dari lebar coil"
+      },
+      {
+        "label": "Kelurusan rel",
+        "value": "0.02 mm / 500 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Pemandu strip coil pelat bracket jok mobil",
+      "Pemandu strip lembaran stamping washer"
+    ],
+    "commonIssues": [
+      "Goresan samping akibat geram tajam tepi coil",
+      "Baut pengikat longgar"
+    ],
+    "related": [
+      "lifter-pad",
+      "pilot-pin",
+      "stripper-plate",
+      "punch"
+    ],
+    "modelId": "model-strip-guide"
+  },
+  {
+    "id": "wear-plate",
+    "name": "Wear Plate",
+    "alias": [
+      "Pelat Gesek Aus",
+      "Bronze Slide Plate",
+      "Pelat Bantalan Luncur"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-bending",
+      "dies-drawing",
+      "dies-forming",
+      "dies-trimming",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Pelat bantalan tahan aus yang menerima beban gesekan berulang pada bagian dies yang bergerak.",
+    "description": "Pelat pelindung struktur utama yang memiliki plug grafit pelumas mandiri untuk memfasilitasi gerakan luncur halus di bawah beban samping ribuan kilogram.",
+    "howItWorks": "Disematkan pada permukaan geser cam slider, heel guide, dan blank holder. Melumasi secara mandiri melalui partikel grafit yang tertanam di perunggu paduan.",
+    "materials": [
+      "Bronze paduan tembaga (CuZn25Al5) bertatahkan grafit padat",
+      "Baja Paduan SCM440 Case Hardened"
+    ],
+    "specs": [
+      {
+        "label": "Beban gesek kontak maks",
+        "value": "80–100 N/mm²"
+      },
+      {
+        "label": "Koefisien gesek kering",
+        "value": "0.10 – 0.15"
+      },
+      {
+        "label": "Suhu kerja maks",
+        "value": "150 °C"
+      }
+    ],
+    "automotiveUse": [
+      "Bantalan luncur cam slider pintu mobil",
+      "Pemandu vertikal draw cushion ring"
+    ],
+    "commonIssues": [
+      "Keausan grafit setelah jutaan siklus",
+      "Goresan permukaan jika terkena serbuk logam"
+    ],
+    "related": [
+      "cam-unit",
+      "blank-holder-binder",
+      "guide-pin-bushing",
+      "shim"
+    ],
+    "modelId": "model-wear-plate"
+  },
+  {
+    "id": "shim",
+    "name": "Shim",
+    "alias": [
+      "Ganjal Presisi",
+      "Leveling Shim",
+      "Spacer Ring Pelat"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-blanking",
+      "dies-bending",
+      "dies-piercing",
+      "dies-forming",
+      "dies-trimming"
+    ],
+    "functions": [
+      "Pengukur",
+      "Pemandu"
+    ],
+    "summary": "Lembaran pelat tipis presisi tinggi untuk menyetel ketinggian dan celah komponen dies saat setting.",
+    "description": "Komponen pengatur celah mikrometrik yang ditempatkan di bawah punch, die block, atau stop block untuk mengompensasi pemotongan hasil regrinding atau toleransi perakitan.",
+    "howItWorks": "Disisipkan di bawah blok alat perkakas saat pemasangan atau penajaman ulang untuk mengembalikan ketinggian original die tanpa permesinan ulang die shoe.",
+    "materials": [
+      "Baja Karbon SK5",
+      "Stainless Steel SUS304 Hardened",
+      "Kuningan C2680"
+    ],
+    "specs": [
+      {
+        "label": "Toleransi ketebalan",
+        "value": "±0.005 mm"
+      },
+      {
+        "label": "Pilihan rentang tebal",
+        "value": "0.05 mm hingga 2.00 mm"
+      },
+      {
+        "label": "Kekerasan lembaran",
+        "value": "45–50 HRC"
+      }
+    ],
+    "automotiveUse": [
+      "Penyetelan clearance punch piercing pilar bodi",
+      "Kompensasi regrinding die insert bumper trim"
+    ],
+    "commonIssues": [
+      "Terjepit miring menyebabkan ketebalan tidak rata",
+      "Deformasi terlipat saat perakitan kasar"
+    ],
+    "related": [
+      "die-block-insert",
+      "punch",
+      "die-set-upper-lower",
+      "stopper-gauge-block"
+    ],
+    "modelId": "model-shim"
+  },
+  {
+    "id": "trim-blade-upper-lower",
+    "name": "Trimming Blade (Upper & Lower)",
+    "alias": [
+      "Pisau Trim Dies",
+      "Trimming Shear Steel",
+      "Pisau Pemotong Sisa Flens"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-trimming",
+      "dies-transfer"
+    ],
+    "functions": [
+      "Pemotong"
+    ],
+    "summary": "Pasangan bilah baja pisau kontur 3D untuk memotong sisa flens berlebih setelah proses drawing.",
+    "description": "Pisau potong berprofil tiga dimensi mengikuti lekuk flens bodi mobil yang bertugas memotong sisa logam (scrap) pasca deformasi deep drawing dengan presisi tepi tinggi.",
+    "howItWorks": "Bilah atas bergerak memotong berpapasan dengan bilah bawah yang memiliki pisau pencacah scrap agar sisa potongan terbagi kecil dan mudah dibuang.",
+    "materials": [
+      "SKD11",
+      "DC53",
+      "D2 Tool Steel"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan mata bilah",
+        "value": "60–62 HRC"
+      },
+      {
+        "label": "Clearance potong geser",
+        "value": "8% - 10% tebal material pelat"
+      },
+      {
+        "label": "Metode hardening",
+        "value": "Vacuum hardening + cryogenic treatment"
+      }
+    ],
+    "automotiveUse": [
+      "Pemotongan tepi panel fender luar",
+      "Trimming perimeter flens kap bagasi"
+    ],
+    "commonIssues": [
+      "Chipping mata bilah akibat misalignment sudut",
+      "Burr berlebih pada tepi trim bodi"
+    ],
+    "related": [
+      "die-block-insert",
+      "cam-unit",
+      "punch",
+      "wear-plate"
+    ],
+    "modelId": "model-trim-blade-upper-lower"
+  },
+  {
+    "id": "draw-bead-insert",
+    "name": "Draw Bead Insert",
+    "alias": [
+      "Bulu Manik Tarikan",
+      "Restraining Bead",
+      "Insert Penahan Aliran"
+    ],
+    "categoryIds": [
+      "dies"
+    ],
+    "branchIds": [
+      "dies-drawing",
+      "dies-forming"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Penjepit"
+    ],
+    "summary": "Batang penonjol rusuk pada binder die untuk menahan dan meregulasi kecepatan aliran pelat logam.",
+    "description": "Sisipan rusuk melengkung setengah lingkaran pada permukaan binder yang memaksa pelat logam mengalami tekukan berulang sehingga meningkatkan hambatan geser selama drawing.",
+    "howItWorks": "Saat binder menutup, pelat terdorong masuk ke parit alur manik betina menciptakan gaya resistensi tarik yang presisi agar pelat tidak mengkerut atau robek.",
+    "materials": [
+      "SKD11",
+      "Cast Iron Alloy FC300 Hardfaced"
+    ],
+    "specs": [
+      {
+        "label": "Tinggi manik tipikal",
+        "value": "3.0 – 8.0 mm"
+      },
+      {
+        "label": "Radius kepala manik",
+        "value": "R 3.0 – R 6.0 mm"
+      },
+      {
+        "label": "Kekerasan permukaan tahan gesek",
+        "value": "58–60 HRC"
+      }
+    ],
+    "automotiveUse": [
+      "Regulasi aliran pelat pada drawing roof panel",
+      "Kontrol bentuk panel samping bodi luar"
+    ],
+    "commonIssues": [
+      "Galling parah pada radius bead",
+      "Penipisan material pelat yang melewati batas putus"
+    ],
+    "related": [
+      "blank-holder-binder",
+      "die-set-upper-lower",
+      "nitrogen-gas-spring",
+      "wear-plate"
+    ],
+    "modelId": "model-draw-bead-insert"
+  },
+  {
+    "id": "cavity",
+    "name": "Cavity (Female Mold Insert)",
+    "alias": [
+      "Rongga Cetak",
+      "Cavity Plate",
+      "Mold Cavity Insert"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pendingin"
+    ],
+    "summary": "Blok cetakan bagian cekung yang membentuk permukaan luar estetika produk otomotif.",
+    "description": "Bagian utama mold yang membentuk kontur kelas A pada komponen plastik atau die casting, dilengkapi saluran pendingin presisi untuk siklus pendinginan cepat.",
+    "howItWorks": "Terpasang pada fixed side mold. Logam cair atau lelehan polimer bertekanan tinggi diinjeksikan mengisi rongga cavity hingga membeku sempurna.",
+    "materials": [
+      "NAK80 (Pre-hardened)",
+      "SKD61 (untuk die casting)",
+      "1.2738 / P20+Ni"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan baja",
+        "value": "38–42 HRC (NAK80) / 48–52 HRC (SKD61)"
+      },
+      {
+        "label": "Kekasaran permukaan poles",
+        "value": "SPI A1 Diamond Mirror Polish (Ra 0.01 µm)"
+      },
+      {
+        "label": "Tekanan injeksi maksimum",
+        "value": "Hingga 1500 bar"
+      }
+    ],
+    "automotiveUse": [
+      "Permukaan luar bumper depan mobil",
+      "Cover kaca spion samping",
+      "Casing grill radiator"
+    ],
+    "commonIssues": [
+      "Goresan pada polesan cermin",
+      "Heat checking retak panas pada die casting aluminium"
+    ],
+    "related": [
+      "core",
+      "sprue-bushing",
+      "cooling-channel",
+      "vent"
+    ],
+    "modelId": "model-cavity"
+  },
+  {
+    "id": "core",
+    "name": "Core (Male Mold Insert)",
+    "alias": [
+      "Inti Cetakan",
+      "Core Plate",
+      "Punch Mold"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pengeluar",
+      "Pendingin"
+    ],
+    "summary": "Blok cetakan bagian cembung yang membentuk geometri internal, rusuk pengaku, dan boss baut.",
+    "description": "Blok cetakan bergerak yang membentuk sisi belakang produk. Menyediakan lintasan sistem ejektor dan rusuk struktural penambah kekakuan komponen plastik otomotif.",
+    "howItWorks": "Saat mold membuka, part plastik menyusut dan mencengkeram core. Sistem pin ejektor di dalam core kemudian bergerak maju mendorong part keluar dari rongga.",
+    "materials": [
+      "P20+Ni (1.2738)",
+      "718H",
+      "SKD61"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan inti",
+        "value": "34–38 HRC"
+      },
+      {
+        "label": "Sudut draft pelepasan",
+        "value": "1.0° - 3.0° per sisi"
+      },
+      {
+        "label": "Sistem ejeksi",
+        "value": "Multi-pin ejektor terintegrasi"
+      }
+    ],
+    "automotiveUse": [
+      "Sisi dalam dasbor mobil",
+      "Rumah saringan udara mesin",
+      "Housing lampu depan"
+    ],
+    "commonIssues": [
+      "Part menempel kuat akibat sudut draft kurang",
+      "Deformasi pin akibat panas akumulatif"
+    ],
+    "related": [
+      "cavity",
+      "ejector-pin",
+      "cooling-channel",
+      "mold-base"
+    ],
+    "modelId": "model-core"
+  },
+  {
+    "id": "mold-base",
+    "name": "Mold Base",
+    "alias": [
+      "Rangka Cetakan Injeksi",
+      "Standard Mold Base",
+      "Rumah Mold"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pemandu",
+      "Penjepit"
+    ],
+    "summary": "Susunan pelat baja standar yang merangkum cavity, core, sistem ejeksi, dan pemandu cetakan.",
+    "description": "Struktur rangka standar modul injection mold yang terdiri atas top clamping plate, cavity plate, core plate, support plate, riser block, dan bottom clamp plate.",
+    "howItWorks": "Menghubungkan unit cetakan ke platen mesin injeksi, mentransmisikan gaya clamping penutup cetakan, serta memandu pergerakan buka-tutup cetakan secara paralel.",
+    "materials": [
+      "S50C",
+      "S55C Carbon Steel",
+      "1.1730 Tool Steel"
+    ],
+    "specs": [
+      {
+        "label": "Standar ukuran",
+        "value": "JIS Futaba / DME Metric standard"
+      },
+      {
+        "label": "Kekuatan tarik pelat",
+        "value": "≥ 600 N/mm²"
+      },
+      {
+        "label": "Paralelisme pelat rangka",
+        "value": "0.015 mm / 300 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Rangka cetakan trim konsol tengah",
+      "Mold base rumah transmisi die cast"
+    ],
+    "commonIssues": [
+      "Lengkung pelat akibat tonase penjepit berlebih",
+      "Karat saluran air pendingin antar pelat"
+    ],
+    "related": [
+      "core",
+      "cavity",
+      "guide-pillar-bushing",
+      "ejector-plate"
+    ],
+    "modelId": "model-mold-base"
+  },
+  {
+    "id": "sprue-bushing",
+    "name": "Sprue Bushing",
+    "alias": [
+      "Bushing Sprue",
+      "Corong Masuk Plastik",
+      "Sprue Nozzle Seat"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pembentuk"
+    ],
+    "summary": "Bushing saluran masuk utama lelehan plastik dari nozzle mesin injeksi ke dalam sistem runner.",
+    "description": "Komponen gerbang awal yang menerima sentuhan langsung nosel mesin injeksi pada suhu tinggi, memiliki lubang tirus peluncur material leleh polimer.",
+    "howItWorks": "Nosel mesin menekan dudukan radius sprue bushing dengan gaya clamping nozzle. Plastik cair disuntikkan melewati lubang tirus sprue menuju runner dan rongga cetak.",
+    "materials": [
+      "SKD61 (Hardened & Nitrided)",
+      "SUJ2"
+    ],
+    "specs": [
+      {
+        "label": "Radius dudukan nozzle (SR)",
+        "value": "SR 10.0 / SR 15.0 mm"
+      },
+      {
+        "label": "Kekerasan permukaan",
+        "value": "50–55 HRC"
+      },
+      {
+        "label": "Sudut taper tirus lubang",
+        "value": "2° – 4° taper pelepasan"
+      }
+    ],
+    "automotiveUse": [
+      "Injeksi cover sekring ruang mesin",
+      "Injeksi dudukan baterai aki mobil"
+    ],
+    "commonIssues": [
+      "Plastik membeku di sprue",
+      "Goresan dudukan nozzle menyebabkan lelehan bocor"
+    ],
+    "related": [
+      "locating-ring",
+      "runner-gate",
+      "cavity",
+      "mold-base"
+    ],
+    "modelId": "model-sprue-bushing"
+  },
+  {
+    "id": "locating-ring",
+    "name": "Locating Ring",
+    "alias": [
+      "Cincin Penepat Mold",
+      "Centering Ring",
+      "Flens Penyelaras Platen"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Cincin bulat konsentris untuk mensejajarkan sumbu sprue bushing cetakan dengan nozzle mesin injeksi.",
+    "description": "Cincin pemusat baja yang menonjol dari pelat atas cetakan, bertugas masuk secara presisi ke dalam lubang tengah stationary platen mesin injeksi moulding.",
+    "howItWorks": "Saat mold dipasang di mesin press plastik, diameter luar locating ring langsung duduk pas di lubang platen mesin, memastikan saluran sprue tepat sepusat dengan nosel injeksi.",
+    "materials": [
+      "S45C",
+      "S50C Hardened"
+    ],
+    "specs": [
+      {
+        "label": "Toleransi diameter luar",
+        "value": "h7 (misal 100 mm -0.035/0)"
+      },
+      {
+        "label": "Ketebalan flens",
+        "value": "12 – 20 mm"
+      },
+      {
+        "label": "Baut pengikat",
+        "value": "4 titik baut countersunk M8"
+      }
+    ],
+    "automotiveUse": [
+      "Penyelarasan semua tipe mold plastik interior dan eksterior pada platen mesin"
+    ],
+    "commonIssues": [
+      "Deformasi bibir ring akibat benturan crane saat setup mold",
+      "Baut pengikat patah"
+    ],
+    "related": [
+      "sprue-bushing",
+      "mold-base",
+      "guide-pillar-bushing",
+      "fixture-key-tenon"
+    ],
+    "modelId": "model-locating-ring"
+  },
+  {
+    "id": "runner-gate",
+    "name": "Runner & Gate System Insert",
+    "alias": [
+      "Sistem Aliran Gerbang",
+      "Cold Runner Block",
+      "Sub-gate Insert"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-slide-lifter"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pemandu"
+    ],
+    "summary": "Saluran distribusi lelehan plastik dari sprue dan gerbang sempit masuk ke dalam cavity produk.",
+    "description": "Sistem kanal alur yang mendistribusikan aliran polimer cair secara seimbang dengan gerbang sempit yang mudah patah terpisah dari part setelah pembekuan.",
+    "howItWorks": "Lelehan polimer mengalir dari sprue melewati kanal runner trapesium lalu terakselerasi melalui celah sempit gate sebelum mengisi rongga cavity secara teratur.",
+    "materials": [
+      "SKD61",
+      "NAK80",
+      "H13 Tool Steel"
+    ],
+    "specs": [
+      {
+        "label": "Tipe gerbang",
+        "value": "Submarine / Pin-point / Fan Gate"
+      },
+      {
+        "label": "Kekasaran saluran runner",
+        "value": "Ra 0.8 µm"
+      },
+      {
+        "label": "Diameter kanal runner utama",
+        "value": "Ø 6.0 – 12.0 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Pengisian cetakan cover spion (sub-gate)",
+      "Runner cetakan clip trim interior bodi"
+    ],
+    "commonIssues": [
+      "Patah gerbang tertinggal di produk",
+      "Keseimbangan pengisian rongga tidak merata (short shot)"
+    ],
+    "related": [
+      "sprue-bushing",
+      "cavity",
+      "hot-runner-nozzle",
+      "vent"
+    ],
+    "modelId": "model-runner-gate"
+  },
+  {
+    "id": "ejector-pin",
+    "name": "Ejector Pin",
+    "alias": [
+      "Pin Pendorong Part",
+      "Knockout Pin",
+      "Pin Ejektor"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pengeluar"
+    ],
+    "summary": "Pin baja batang silinder presisi untuk mendorong produk plastik atau coran terlepas dari core mold.",
+    "description": "Batang silindris presisi tinggi berkepala T yang digerakkan pelat hidrolik mesin untuk melontarkan produk yang telah mendingin dan menyusut pada core cetakan.",
+    "howItWorks": "Pelat ejektor bergerak maju di akhir siklus pembukaan mold; ujung pin menyentuh bagian belakang produk dan mendorongnya lepas jatuh ke konveyor.",
+    "materials": [
+      "SKD61 (Nitrided surface)",
+      "SKH51 High Speed Steel"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan inti",
+        "value": "40–45 HRC"
+      },
+      {
+        "label": "Kekerasan lapisan permukaan (Nitride)",
+        "value": "≥ 950 HV (~65 HRC)"
+      },
+      {
+        "label": "Toleransi diameter batang",
+        "value": "g6 / h6 (-0.005 / -0.015 mm)"
+      }
+    ],
+    "automotiveUse": [
+      "Ejeksi panel kisi AC mobil",
+      "Pelepasan rumah pedal gas injeksi",
+      "Ejeksi intake manifold plastik"
+    ],
+    "commonIssues": [
+      "Pin bengkok saat terjadi hambatan pelepasan",
+      "Flash melingkari bekas kepala pin"
+    ],
+    "related": [
+      "ejector-plate",
+      "return-pin",
+      "core",
+      "angled-lifter"
+    ],
+    "modelId": "model-ejector-pin"
+  },
+  {
+    "id": "ejector-plate",
+    "name": "Ejector Plate Assembly",
+    "alias": [
+      "Pelat Ejektor",
+      "Ejector Retainer Set",
+      "Ejection Plate Pack"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pengeluar",
+      "Pemandu"
+    ],
+    "summary": "Rangkaian pelat kembar yang mengunci kepala pin ejektor dan memandu gerakan ejeksi secara serentak.",
+    "description": "Dua pelat baja (ejector plate dan ejector retaining plate) yang merangkum ratusan kepala pin ejektor, pin balik, dan core pin, digerakkan batang silinder mesin.",
+    "howItWorks": "Menerima dorongan stang ejektor mesin injeksi, bergerak maju di antara riser block mold base untuk mendorong seluruh pin secara serempak tanpa kemiringan.",
+    "materials": [
+      "S45C",
+      "S50C Structural Carbon Steel"
+    ],
+    "specs": [
+      {
+        "label": "Ketebalan pelat ganda",
+        "value": "25 + 20 mm standar"
+      },
+      {
+        "label": "Pemandu gerak",
+        "value": "Ejector guide pin & bronze bushing"
+      },
+      {
+        "label": "Beban ejeksi maksimum",
+        "value": "Hingga 500 kN"
+      }
+    ],
+    "automotiveUse": [
+      "Sistem ejeksi serentak cetakan bumper belakang",
+      "Ejektor cover mesin"
+    ],
+    "commonIssues": [
+      "Pelat bengkok akibat beban dorong tidak seimbang",
+      "Aus pada bushing pemandu ejektor"
+    ],
+    "related": [
+      "ejector-pin",
+      "return-pin",
+      "mold-base",
+      "core"
+    ],
+    "modelId": "model-ejector-plate"
+  },
+  {
+    "id": "return-pin",
+    "name": "Return Pin",
+    "alias": [
+      "Pin Pengembali Ejektor",
+      "Push Back Pin",
+      "Reset Pin"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pengeluar",
+      "Pemandu"
+    ],
+    "summary": "Pin pengaman yang menekan balik sistem pelat ejektor mundur ke posisi awal saat mold menutup.",
+    "description": "Pin silinder kokoh berdiameter besar yang bertugas secara mekanis memastikan seluruh pin ejektor telah ditarik mundur sebelum bidang rongga mold saling bertemu.",
+    "howItWorks": "Saat bagian moving mold menutup ke arah fixed mold, ujung pin return membentur pelat parting line cavity, mendorong paksa pelat ejektor mundur ke dasar belakang.",
+    "materials": [
+      "SUJ2",
+      "SKD61 Heat Treated"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan batang",
+        "value": "58–62 HRC"
+      },
+      {
+        "label": "Diameter tipikal",
+        "value": "Ø 16 – 32 mm"
+      },
+      {
+        "label": "Pegas bantu balik (opsional)",
+        "value": "Pegas spiral di sekeliling pin"
+      }
+    ],
+    "automotiveUse": [
+      "Pengaman sistem ejeksi pada mold bumper",
+      "Reset mekanik mold die casting roda paduan"
+    ],
+    "commonIssues": [
+      "Ujung pin aus atau pecah akibat benturan penutupan keras",
+      "Pin longgar di lubang pelat"
+    ],
+    "related": [
+      "ejector-plate",
+      "ejector-pin",
+      "mold-base",
+      "guide-pillar-bushing"
+    ],
+    "modelId": "model-return-pin"
+  },
+  {
+    "id": "guide-pillar-bushing",
+    "name": "Guide Pillar & Bushing (Mold)",
+    "alias": [
+      "Tiang Pemandu Mold",
+      "Leader Pin & Bush",
+      "Guide Post Mold"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Tiang silinder dan selongsong pemandu presisi untuk mengunci alignment rongga cavity dan core mold.",
+    "description": "Sistem pemandu presisi utama antara pelat cavity statis dan pelat core bergerak yang mencegah kerusakan benturan pada tepi parting line dan sisipan cetakan.",
+    "howItWorks": "Pillar menonjol dari satu paruh cetakan memasuki bushing berpelumas grafit di paruh pasangannya sebelum permukaan cavity dan core saling bersentuhan rapat.",
+    "materials": [
+      "SUJ2 (Bearing Steel Hardened)",
+      "Bronze berpelumas grafit solid"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan pilar",
+        "value": "60–62 HRC"
+      },
+      {
+        "label": "Toleransi diameter luar",
+        "value": "h6 / js6"
+      },
+      {
+        "label": "Kanal pelumas spiral",
+        "value": "Alur spiral internal pada bushing"
+      }
+    ],
+    "automotiveUse": [
+      "Pemandu perakitan presisi mold dashboard mobil",
+      "Pemandu mold die cast transmisi"
+    ],
+    "commonIssues": [
+      "Goresan mendalam akibat partikel kontaminasi",
+      "Pelebaran celah bushing pemandu"
+    ],
+    "related": [
+      "mold-base",
+      "guide-pin-bushing",
+      "cavity",
+      "core"
+    ],
+    "modelId": "model-guide-pillar-bushing"
+  },
+  {
+    "id": "cooling-channel",
+    "name": "Cooling Channel Insert (Baffle & Bubbler)",
+    "alias": [
+      "Saluran Air Pendingin Mold",
+      "Cooling Baffle",
+      "Conformal Cooling Core"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pendingin"
+    ],
+    "summary": "Sirkuit pipa internal dan sekat aliran air pendingin untuk menstabilkan suhu cetakan dan mempercepat siklus.",
+    "description": "Jaringan saluran internal yang dibor atau dicetak 3D di dalam cavity dan core untuk menyerap panas lelehan secara merata dan mencegah perubahan bentuk (warpage) produk.",
+    "howItWorks": "Air bersuhu terkontrol dipompa bersirkulasi melalui bilah baffle atau bubbler, mengalirkan panas termal dari baja cetakan ke unit sirkulasi luar.",
+    "materials": [
+      "Kuningan C3604 (Baffle blade)",
+      "Tembaga Berilium CuBe2 / C17200",
+      "Stainless Steel SUS304"
+    ],
+    "specs": [
+      {
+        "label": "Tekanan fluida pendingin",
+        "value": "4 – 8 bar"
+      },
+      {
+        "label": "Laju aliran pendinginan",
+        "value": "Turbulent flow (Re > 4000)"
+      },
+      {
+        "label": "Jarak saluran ke permukaan rongga",
+        "value": "10 – 15 mm konstan"
+      }
+    ],
+    "automotiveUse": [
+      "Pendinginan cepat sirip radiator plastik",
+      "Pendinginan mold die casting rumah transmisi aluminium"
+    ],
+    "commonIssues": [
+      "Penyumbatan kerak kalsium",
+      "Kebocoran seal O-ring saluran"
+    ],
+    "related": [
+      "cavity",
+      "core",
+      "mold-base",
+      "hot-runner-manifold"
+    ],
+    "modelId": "model-cooling-channel"
+  },
+  {
+    "id": "slide-core",
+    "name": "Slide Core Unit (Side Action)",
+    "alias": [
+      "Inti Geser Samping",
+      "Cam Slider Mold",
+      "Undercut Slider"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-slide-lifter",
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pengeluar",
+      "Pemandu"
+    ],
+    "summary": "Mekanisme geser samping mekanis atau hidrolik untuk membentuk lubang samping dan snap-fit undercut.",
+    "description": "Modul geser lateral yang digerakkan oleh angular pin atau silinder hidrolik untuk menarik bagian cetakan yang menghalangi ejeksi produk plastik berfitur undercut.",
+    "howItWorks": "Saat mold membuka, pin miring memaksa slide block bergeser ke samping pada rel pemandu, membebaskan tonjolan klip samping part sebelum ejektor bekerja.",
+    "materials": [
+      "SKD61 Nitrided",
+      "1.2344",
+      "Bronze Wear Plate bertatahkan grafit"
+    ],
+    "specs": [
+      {
+        "label": "Sudut pin baji (angle pin)",
+        "value": "15° – 25°"
+      },
+      {
+        "label": "Langkah geser (slide stroke)",
+        "value": "15 – 120 mm"
+      },
+      {
+        "label": "Penguncian heel block",
+        "value": "Sudut baji +2° lebih besar dari pin"
+      }
+    ],
+    "automotiveUse": [
+      "Mencetak lubang klip samping door trim panel",
+      "Mencetak lubang dudukan sensor ultrasonic bumper"
+    ],
+    "commonIssues": [
+      "Galling permukaan kontak geser",
+      "Flash plastik akibat heel block pengunci aus"
+    ],
+    "related": [
+      "angled-lifter",
+      "cam-unit",
+      "cavity",
+      "core"
+    ],
+    "modelId": "model-slide-core"
+  },
+  {
+    "id": "angled-lifter",
+    "name": "Angled Lifter (Lifter Core)",
+    "alias": [
+      "Ejektor Sudut",
+      "Lifter Undercut Dalam",
+      "Slanted Ejector"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-slide-lifter",
+      "mold-two-plate",
+      "mold-hot-runner"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pengeluar"
+    ],
+    "summary": "Batang ejektor bergerak miring untuk melepaskan undercut klip internal di sisi dalam produk plastik.",
+    "description": "Mekanisme cerdas pelepas kait snap-fit internal yang dipasang pada pelat ejektor dengan dudukan geser bersudut, bergerak naik sekaligus menyamping saat didorong.",
+    "howItWorks": "Saat pelat ejektor maju, batang lifter bergerak miring ke atas sekaligus bergeser ke dalam, mencabut tonjolan core dari lubang pengait interior bodi mobil.",
+    "materials": [
+      "SKD61 Vacuum Heat Treated",
+      "SKH51 High Speed Steel"
+    ],
+    "specs": [
+      {
+        "label": "Sudut kemiringan lifter",
+        "value": "5° – 12°"
+      },
+      {
+        "label": "Kekerasan batang kerja",
+        "value": "48–52 HRC"
+      },
+      {
+        "label": "Clearance blok pemandu peluncur",
+        "value": "0.015 – 0.025 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Klip pengunci snap-fit panel pilar interior",
+      "Kait pengait konsol boks tengah"
+    ],
+    "commonIssues": [
+      "Batang lifter patah akibat tekukan gaya dorong",
+      "Bekas garis lecet pada permukaan internal part"
+    ],
+    "related": [
+      "slide-core",
+      "ejector-pin",
+      "ejector-plate",
+      "core"
+    ],
+    "modelId": "model-angled-lifter"
+  },
+  {
+    "id": "hot-runner-manifold",
+    "name": "Hot Runner Manifold",
+    "alias": [
+      "Manifold Hot Runner",
+      "Blok Distribusi Panas",
+      "Heated Distribution Block"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-hot-runner"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pendingin"
+    ],
+    "summary": "Blok distribusi baja berpemanas internal untuk membagi lelehan plastik ke beberapa nozzle tanpa limbah runner.",
+    "description": "Blok baja tahan panas bermassa besar yang dipanaskan elemen listrik guna mempertahankan polimer dalam kondisi lelehan cair sempurna pada suhu konstan.",
+    "howItWorks": "Menerima pasokan lelehan resin dari sprue mesin injeksi, menyalurkannya melalui saluran internal bervalve flow ke masing-masing hot runner nozzle tanpa pembekuan.",
+    "materials": [
+      "1.2311",
+      "1.2344 / H13 ESR",
+      "Stainless Steel 420"
+    ],
+    "specs": [
+      {
+        "label": "Keseragaman kontrol suhu",
+        "value": "±1.0 °C antar zona PID"
+      },
+      {
+        "label": "Kapasitas tekanan kerja",
+        "value": "Hingga 2000 bar"
+      },
+      {
+        "label": "Elemen pemanas",
+        "value": "Tubular heater terintegrasi dengan termokopel tipe J"
+      }
+    ],
+    "automotiveUse": [
+      "Injeksi panel instrumen dasbor ukuran besar",
+      "Injeksi molding bumper depan mobil"
+    ],
+    "commonIssues": [
+      "Kebocoran resin leleh pada sambungan manifold nozzle",
+      "Degradasi polimer akibat titik panas lokal"
+    ],
+    "related": [
+      "hot-runner-nozzle",
+      "sprue-bushing",
+      "cavity",
+      "runner-gate"
+    ],
+    "modelId": "model-hot-runner-manifold"
+  },
+  {
+    "id": "hot-runner-nozzle",
+    "name": "Hot Runner Nozzle (Valve Gate)",
+    "alias": [
+      "Nosel Hot Runner",
+      "Valve Gate Nozzle",
+      "Nosel Gerbang Jarum"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-hot-runner"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pemotong"
+    ],
+    "summary": "Ujung nosel injeksi berpemanas dengan katup jarum pneumatik untuk mengontrol buka-tutup gerbang secara presisi.",
+    "description": "Nosel presisi berpemanas yang menyentuh langsung cavity produk, dilengkapi jarum katup (valve pin) pneumatik untuk membuka dan menutup titik injeksi secara terkontrol.",
+    "howItWorks": "Silinder pneumatik menarik valve pin mundur membuka gate saat injeksi dimulai, dan mendorong pin maju menutup rata dengan dinding cavity untuk menghilangkan bekas cacat gerbang.",
+    "materials": [
+      "Beryllium Copper (CuBe) Tip",
+      "Baja Paduan CPM-9V / SKH51 Hardened"
+    ],
+    "specs": [
+      {
+        "label": "Diameter ujung gerbang (gate)",
+        "value": "Ø 1.2 – 3.5 mm"
+      },
+      {
+        "label": "Kontrol aktuasi katup",
+        "value": "Sekuensial pneumatik atau hidrolik"
+      },
+      {
+        "label": "Batas suhu leleh nosel",
+        "value": "Maksimum 400 °C"
+      }
+    ],
+    "automotiveUse": [
+      "Penyuntikan multi-titik bumper eksterior mobil",
+      "Lensa mika lampu belakang PMMA bebas cacat alur"
+    ],
+    "commonIssues": [
+      "Ujung jarum valve aus menyebabkan lelehan menetes",
+      "Pemanas termokopel rusak"
+    ],
+    "related": [
+      "hot-runner-manifold",
+      "cavity",
+      "runner-gate",
+      "sprue-bushing"
+    ],
+    "modelId": "model-hot-runner-nozzle"
+  },
+  {
+    "id": "vent",
+    "name": "Venting Insert (Air Vent)",
+    "alias": [
+      "Celah Pembuangan Gas",
+      "Vent Plug",
+      "Porous Metal Vent"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-two-plate",
+      "mold-three-plate",
+      "mold-hot-runner",
+      "mold-slide-lifter",
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pengeluar"
+    ],
+    "summary": "Celah mikro ventilasi untuk membuang udara terjebak dan gas volatil plastik keluar dari cetakan.",
+    "description": "Celah ventilasi berukuran mikron pada parting line atau sisipan logam berpori yang memungkinkan gas udara lolos tanpa membuat polimer leleh menerobos keluar menjadi cacat flash.",
+    "howItWorks": "Saat resin cair bertekanan tinggi merangsek memenuhi ruang sempit cavity, udara di dalam rongga dipaksa keluar melalui celah ventilasi mikron menuju atmosfer luar.",
+    "materials": [
+      "SKD11",
+      "SUS420 Stainless Steel",
+      "Porous Sintered Metal (Porcerax II)"
+    ],
+    "specs": [
+      {
+        "label": "Kedalaman celah ventilasi gas",
+        "value": "0.015 – 0.030 mm (tergantung jenis resin)"
+      },
+      {
+        "label": "Lebar celah pelepasan",
+        "value": "3.0 – 6.0 mm"
+      },
+      {
+        "label": "Kanal buang sekunder",
+        "value": "Kedalaman 0.5 – 1.0 mm ke udara bebas"
+      }
+    ],
+    "automotiveUse": [
+      "Mencegah cacat gosong (burn mark) pada cover airbag",
+      "Ventilasi ujung aliran mold velg alloy"
+    ],
+    "commonIssues": [
+      "Celah tersumbat endapan lilin polimer",
+      "Terjadinya flashing jika celah terkikis melebar"
+    ],
+    "related": [
+      "cavity",
+      "core",
+      "runner-gate",
+      "mold-base"
+    ],
+    "modelId": "model-vent"
+  },
+  {
+    "id": "shot-sleeve-plunger",
+    "name": "Shot Sleeve & Plunger Tip",
+    "alias": [
+      "Tabung Tembak & Torak Die Casting",
+      "Cold Chamber Sleeve",
+      "Plunger Tip"
+    ],
+    "categoryIds": [
+      "mold"
+    ],
+    "branchIds": [
+      "mold-die-casting"
+    ],
+    "functions": [
+      "Pembentuk",
+      "Pemandu",
+      "Pendingin"
+    ],
+    "summary": "Tabung silinder dan torak hidrolik penekan logam cair aluminium berkecepatan tinggi ke dalam mold die casting.",
+    "description": "Komponen utama mesin cold chamber die casting yang menerima tuangan aluminium cair bersuhu tinggi dan menyuntikkannya dengan tekanan masif ke dalam rongga cetakan cetak tekan.",
+    "howItWorks": "Sendok tuang menuang logam cair ke lubang shot sleeve. Plunger tip kemudian melesat maju mendorong cairan logam mengisi cetakan dalam hitungan milidetik.",
+    "materials": [
+      "Baja Paduan SKD61 Gas Nitrided",
+      "Plunger Tip Berilium Tembaga CuBe / Keramik Si3N4"
+    ],
+    "specs": [
+      {
+        "label": "Kecepatan tembak (shot speed)",
+        "value": "Hingga 8.0 m/s"
+      },
+      {
+        "label": "Tekanan dorong akhir",
+        "value": "400 – 1000 bar"
+      },
+      {
+        "label": "Pendinginan internal torak",
+        "value": "Water-cooled plunger tip core"
+      }
+    ],
+    "automotiveUse": [
+      "Pengecoran die cast blok mesin mobil aluminium",
+      "Pengecoran rumah transmisi matik"
+    ],
+    "commonIssues": [
+      "Erosi termal dinding tabung akibat panas aluminium cair",
+      "Aus cincin plunger menyebabkan lelehan bocor"
+    ],
+    "related": [
+      "cavity",
+      "core",
+      "cooling-channel",
+      "mold-base"
+    ],
+    "modelId": "model-shot-sleeve-plunger"
+  },
+  {
+    "id": "base-plate",
+    "name": "Tooling Base Plate",
+    "alias": [
+      "Pelat Dasar Fixture",
+      "Subplate Jig",
+      "Fixture Tooling Plate"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding",
+      "jig-assembly",
+      "jig-drilling",
+      "jig-machining",
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pemandu",
+      "Penjepit"
+    ],
+    "summary": "Pelat fondasi kokoh berpresisi tinggi dengan grid lubang acuan tempat memasang seluruh elemen fixture.",
+    "description": "Fondasi utama perakitan jig yang dikerjakan dengan mesin CNC presisi tinggi. Dilengkapi matriks lubang ulir dan lubang pin penepat berjarak standar.",
+    "howItWorks": "Diletakkan di meja mesin CNC atau meja kerja inspeksi. Seluruh blok penahan, clamp, dan locating pin dipasang dan dikunci pada koordinat presisi pelat dasar ini.",
+    "materials": [
+      "Aluminium T6061-T6 (Anodized)",
+      "Besi Cor FC300 / Meehanite",
+      "Baja S50C Terkalibrasi"
+    ],
+    "specs": [
+      {
+        "label": "Ketegakan dan kerataan",
+        "value": "0.01 mm / 1000 mm"
+      },
+      {
+        "label": "Sistem pola grid",
+        "value": "Pitch 50.0 ± 0.01 mm dengan bush ulir M10/M12"
+      },
+      {
+        "label": "Kekasaran permukaan referensi",
+        "value": "Ra 0.8 µm"
+      }
+    ],
+    "automotiveUse": [
+      "Meja jig welding rangka monocoque bodi",
+      "Dudukan fixture machining knuckle roda CNC",
+      "Pelat dasar CMM"
+    ],
+    "commonIssues": [
+      "Lengkung deformasi akibat tegangan sisa permesinan",
+      "Kerusakan ulir baut penegang"
+    ],
+    "related": [
+      "fixture-key-tenon",
+      "quick-change-plate",
+      "locating-pin-round",
+      "support-pad-rest-button"
+    ],
+    "modelId": "model-base-plate"
+  },
+  {
+    "id": "locating-pin-round",
+    "name": "Locating Pin (Round / Cylindrical)",
+    "alias": [
+      "Pin Penepat Bulat",
+      "Round Datum Pin",
+      "Pin Acuan Koordinat"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding",
+      "jig-assembly",
+      "jig-drilling",
+      "jig-machining",
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pengukur"
+    ],
+    "summary": "Pin silinder presisi untuk mengunci posisi referensi sumbu X dan Y pada lubang benda kerja.",
+    "description": "Pin pemosisian primer dalam sistem datum 3-2-1 tooling manufaktur. Berujung tirus atau bullet nose untuk memandu lubang part masuk tepat ke titik koordinat acuan.",
+    "howItWorks": "Dipasang tegak lurus pada base plate. Saat part diletakkan, pin bulat ini masuk ke lubang referensi utama benda kerja, membatasi 2 derajat kebebasan translasi.",
+    "materials": [
+      "SUJ2 Bearing Steel (Hardened)",
+      "SKD11",
+      "Stainless SUS440C"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan permukaan",
+        "value": "58–62 HRC"
+      },
+      {
+        "label": "Toleransi diameter kerja",
+        "value": "g6 / h6 (-0.005 / -0.012 mm)"
+      },
+      {
+        "label": "Bentuk kepala pemandu",
+        "value": "Radius bullet nose / Conical taper"
+      }
+    ],
+    "automotiveUse": [
+      "Penepat lubang referensi chassis mobil saat welding",
+      "Pin datum machining kepala silinder mesin"
+    ],
+    "commonIssues": [
+      "Keausan permukaan gesek samping",
+      "Macet jika lubang part memiliki burr tajam"
+    ],
+    "related": [
+      "locating-pin-diamond",
+      "support-pad-rest-button",
+      "pilot-pin",
+      "base-plate"
+    ],
+    "modelId": "model-locating-pin-round"
+  },
+  {
+    "id": "locating-pin-diamond",
+    "name": "Locating Pin (Diamond / Relieved Shape)",
+    "alias": [
+      "Pin Intan Wajik",
+      "Diamond Pin Datum",
+      "Relieved Locating Pin"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding",
+      "jig-assembly",
+      "jig-drilling",
+      "jig-machining",
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pengukur"
+    ],
+    "summary": "Pin berprofil intan dengan relief samping untuk mencegah macet akibat variasi toleransi jarak dua lubang.",
+    "description": "Pin penepat sekunder yang hanya memiliki dua bidang kontak sentuh sempit berbentuk wajik intan, berfungsi mengunci orientasi rotasi benda kerja tanpa memicu jamming.",
+    "howItWorks": "Dipasangkan berjarak dari pin bulat utama. Dua bidang sentuhnya menahan rotasi part mengelilingi pin bulat, sementara relief samping mengakomodasi variasi jarak lubang part.",
+    "materials": [
+      "SUJ2",
+      "SKD11 Induction Hardened"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan tipikal",
+        "value": "58–62 HRC"
+      },
+      {
+        "label": "Orientasi bidang sentuh",
+        "value": "Tegak lurus terhadap garis hubung antar lubang datum"
+      },
+      {
+        "label": "Toleransi diameter kontak",
+        "value": "h6"
+      }
+    ],
+    "automotiveUse": [
+      "Pin pengunci orientasi bracket shock absorber",
+      "Penepat lubang kedua subframe suspensi belakang"
+    ],
+    "commonIssues": [
+      "Orientasi pemasangan terbalik terhadap garis sumbu datum",
+      "Keausan pada dua bibir kontak"
+    ],
+    "related": [
+      "locating-pin-round",
+      "base-plate",
+      "support-pad-rest-button",
+      "go-no-go-gauge-pin"
+    ],
+    "modelId": "model-locating-pin-diamond"
+  },
+  {
+    "id": "v-block",
+    "name": "V-Block (Prismatic Locator)",
+    "alias": [
+      "Blok V Presisi",
+      "Prism Locator Block",
+      "Dudukan Poros V"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-machining",
+      "jig-checking",
+      "jig-inspection",
+      "jig-assembly",
+      "jig-drilling"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pengukur",
+      "Penjepit"
+    ],
+    "summary": "Blok bersudut prisma 90° atau 120° presisi untuk memposisikan dan menopang benda kerja silindris.",
+    "description": "Elemen penumpu presisi berbentuk celah V yang secara otomatis memusatkan sumbu poros bulat (shaft) atau tabung silinder tepat pada garis simetri acuan.",
+    "howItWorks": "Benda silinder diletakkan di dalam parit sudut V; kedua sisi miring blok menyentuh permukaan luar tabung secara tangensial, mengunci posisi garis pusat benda kerja.",
+    "materials": [
+      "S50C Hardened",
+      "SKD11",
+      "Besi Cor FC300"
+    ],
+    "specs": [
+      {
+        "label": "Sudut alur V",
+        "value": "90° ± 5 arcsec / 120° opsi"
+      },
+      {
+        "label": "Kesejajaran sumbu V ke dasar",
+        "value": "0.005 mm / 100 mm"
+      },
+      {
+        "label": "Kekerasan permukaan sentuh",
+        "value": "56–60 HRC"
+      }
+    ],
+    "automotiveUse": [
+      "Penyangga poros drive shaft saat inspeksi runout",
+      "Penahan batang poros camshaft pada fixture permesinan"
+    ],
+    "commonIssues": [
+      "Penyok lokal akibat benturan benda kerja keras",
+      "Debu serpihan logam terjepit di dasar ceruk V"
+    ],
+    "related": [
+      "support-pad-rest-button",
+      "clamping-strap",
+      "swing-clamp",
+      "base-plate"
+    ],
+    "modelId": "model-v-block"
+  },
+  {
+    "id": "support-pad-rest-button",
+    "name": "Support Pad & Rest Button",
+    "alias": [
+      "Bantalan Tumpu Datum Z",
+      "Rest Pad",
+      "Tombol Landasan Fixture"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding",
+      "jig-assembly",
+      "jig-drilling",
+      "jig-machining",
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pemandu",
+      "Penjepit"
+    ],
+    "summary": "Bantalan baja keras terkalibrasi untuk menetapkan datum bidang Z dan menopang benda kerja tanpa lendutan.",
+    "description": "Kancing tumpuan berkekerasan tinggi tempat mendaratnya permukaan benda kerja dalam prinsip 3-titik datum bidang datar dasar (datum primer Z).",
+    "howItWorks": "Tertanam pada fixture base plate. Ketinggian permukaan atasnya digerinda bersamaan untuk menjadi landasan bidang referensi part sebelum ditekan oleh klem penjepit.",
+    "materials": [
+      "SCM415 Carburized",
+      "SKD11",
+      "SUJ2"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan permukaan tumpu",
+        "value": "60–64 HRC"
+      },
+      {
+        "label": "Kekasaran permukaan tumpuan",
+        "value": "Ra 0.4 µm (Grounded)"
+      },
+      {
+        "label": "Bentuk kepala",
+        "value": "Datar rata, radius cembung, atau bergerigi"
+      }
+    ],
+    "automotiveUse": [
+      "Titik tumpu datum Z blok silinder mesin CNC",
+      "Bantalan landasan panel pintu mobil saat checking gap"
+    ],
+    "commonIssues": [
+      "Keausan permukaan akibat gesekan part berpasir",
+      "Partikel serpihan las menempel"
+    ],
+    "related": [
+      "base-plate",
+      "locating-pin-round",
+      "toggle-clamp",
+      "clamping-strap"
+    ],
+    "modelId": "model-support-pad-rest-button"
+  },
+  {
+    "id": "toggle-clamp",
+    "name": "Manual Toggle Clamp",
+    "alias": [
+      "Klem Jungkit Manual",
+      "Quick Clamp",
+      "Toggle Plier Fixture"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding",
+      "jig-assembly",
+      "jig-checking"
+    ],
+    "functions": [
+      "Penjepit"
+    ],
+    "summary": "Mekanisme penjepit manual tuas jungkit yang menghasilkan gaya jepit cepat dan mengunci mandiri.",
+    "description": "Klem tangan berpenguncian mekanis empat batang (four-bar linkage) yang memberikan gaya tahan tinggi ketika tuas ditekan melampaui titik mati tengah.",
+    "howItWorks": "Operator mendorong pegangan tuas; lengan klem berujung bantalan neoprena menekan benda kerja. Sambungan engsel mengunci mandiri sehingga tidak dapat terbuka oleh getaran.",
+    "materials": [
+      "Baja Karbon SPCC Galvanized",
+      "Pin Engsel Stainless SUS304",
+      "Ujung Baut Neoprene / Karet NBR"
+    ],
+    "specs": [
+      {
+        "label": "Kapasitas gaya penahan (holding capacity)",
+        "value": "1.5 kN – 10.0 kN"
+      },
+      {
+        "label": "Sudut buka tuas pegangan",
+        "value": "60° – 90° pelepasan bebas"
+      },
+      {
+        "label": "Lapisan akhir",
+        "value": "Zinc plated tahan karat & percikan las"
+      }
+    ],
+    "automotiveUse": [
+      "Penjepit cepat lembaran pintu saat spot welding",
+      "Klem panel interior pada checking fixture"
+    ],
+    "commonIssues": [
+      "Bantalan karet penekan aus atau robek",
+      "Engsel kendor akibat siklus penggunaan intensif"
+    ],
+    "related": [
+      "swing-clamp",
+      "support-pad-rest-button",
+      "clamping-strap",
+      "base-plate"
+    ],
+    "modelId": "model-toggle-clamp"
+  },
+  {
+    "id": "swing-clamp",
+    "name": "Pneumatic Swing Clamp",
+    "alias": [
+      "Klem Ayun Otomatis",
+      "Rotary Swing Cylinder Clamp",
+      "Pneumatic Clamp"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding",
+      "jig-assembly",
+      "jig-machining"
+    ],
+    "functions": [
+      "Penjepit"
+    ],
+    "summary": "Klem silinder otomatis yang berputar 90° saat membuka lalu bergerak turun tegak lurus menjepit benda kerja.",
+    "description": "Unit aktuator otomatis kompak yang memadukan gerakan rotasi 90 derajat dengan gerakan jepit translasi lurus ke bawah, mempermudah akses robot memasukkan part.",
+    "howItWorks": "Udara bertekanan mendorong piston naik: lengan klem berputar 90° menjauh membuka ruang muat part. Saat clamping, lengan berputar kembali lalu menarik part ke support pad.",
+    "materials": [
+      "Aluminium Alloy Anodized Body",
+      "Batang Piston Baja Paduan Chrome Plated SCM435"
+    ],
+    "specs": [
+      {
+        "label": "Tekanan kerja udara",
+        "value": "4 – 7 bar"
+      },
+      {
+        "label": "Sudut ayun putar",
+        "value": "90° searah atau berlawanan jarum jam"
+      },
+      {
+        "label": "Gaya jepit tipikal",
+        "value": "1.2 kN – 4.5 kN"
+      }
+    ],
+    "automotiveUse": [
+      "Penjepit otomatis bodi mobil di lini perakitan robot",
+      "Pencekam komponen transmisi CNC ringan"
+    ],
+    "commonIssues": [
+      "Kebocoran seal silinder pneumatik",
+      "Lengan klem menabrak part jika orientasi meleset"
+    ],
+    "related": [
+      "hydraulic-clamp",
+      "toggle-clamp",
+      "support-pad-rest-button",
+      "base-plate"
+    ],
+    "modelId": "model-swing-clamp"
+  },
+  {
+    "id": "hydraulic-clamp",
+    "name": "Hydraulic Clamp (Heavy Duty)",
+    "alias": [
+      "Klem Hidrolik Tekanan Tinggi",
+      "Hydraulic Workholding Cylinder",
+      "Hydro Clamp CNC"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-machining",
+      "jig-welding"
+    ],
+    "functions": [
+      "Penjepit"
+    ],
+    "summary": "Klem bertenaga fluida hidrolik bertekanan hingga 350 bar untuk mencekam komponen berat saat pemesinan CNC.",
+    "description": "Aktuator penjepit bertenaga tinggi untuk menahan gaya potong masif pada proses roughing dan milling komponen struktural logam berat tanpa timbul vibrasi.",
+    "howItWorks": "Oli hidrolik bertekanan tinggi dialirkan ke dalam silinder, menggerakkan piston mendorong lengan klem tebal menekan benda kerja ke fixture block.",
+    "materials": [
+      "Baja Tempa Karbon Tinggi S50C Hardened",
+      "Bodi Silinder 42CrMo4 Nitrided"
+    ],
+    "specs": [
+      {
+        "label": "Tekanan hidrolik operasional",
+        "value": "70 – 350 bar"
+      },
+      {
+        "label": "Gaya cekam output",
+        "value": "15 kN – 80 kN per titik"
+      },
+      {
+        "label": "Seal fluida",
+        "value": "Poliuretana tahan aus & suhu 90 °C"
+      }
+    ],
+    "automotiveUse": [
+      "Pencekam blok silinder mesin mobil saat milling CNC",
+      "Penjepit knuckle roda pada machining center"
+    ],
+    "commonIssues": [
+      "Kebocoran fluida bertekanan pada seal sambungan",
+      "Penurunan tekanan pada sirkuit akumulator"
+    ],
+    "related": [
+      "swing-clamp",
+      "clamping-strap",
+      "v-block",
+      "fixture-key-tenon"
+    ],
+    "modelId": "model-hydraulic-clamp"
+  },
+  {
+    "id": "drill-bushing",
+    "name": "Hardened Drill Bushing",
+    "alias": [
+      "Bushing Pemandu Bor",
+      "Jig Drill Bush",
+      "Selongsong Mata Bor"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-drilling"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Selongsong baja tahan aus berkekerasan ekstrem untuk mengarahkan mata bor agar posisi lubang presisi.",
+    "description": "Komponen tubular pemandu bor dengan konsentrisitas sangat tinggi yang dipasang pada pelat drilling jig untuk mencegah lenturan mata bor saat menusuk material.",
+    "howItWorks": "Mata bor dimasukkan melalui lubang dalam bushing yang sangat presisi; dinding dalam bushing menopang bodi bor sehingga ujung mata bor menusuk tegak lurus pada titik yang dituju.",
+    "materials": [
+      "SUJ2 Bearing Steel",
+      "SKD11 Tungsten Carbide Insert Option"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan dalam bushing",
+        "value": "62–65 HRC"
+      },
+      {
+        "label": "Konsentrisitas diameter dalam-luar",
+        "value": "≤ 0.005 mm TIR"
+      },
+      {
+        "label": "Toleransi lubang dalam (ID)",
+        "value": "F7 presisi luncur"
+      }
+    ],
+    "automotiveUse": [
+      "Pengeboran lubang engsel pintu mobil manual",
+      "Pengeboran lubang bracket gardan pada truk"
+    ],
+    "commonIssues": [
+      "Keausan lubang dalam akibat gesekan serbuk bram baja",
+      "Goresan dinding dalam jika mata bor gompal"
+    ],
+    "related": [
+      "guide-pin-bushing",
+      "base-plate",
+      "locating-pin-round",
+      "support-pad-rest-button"
+    ],
+    "modelId": "model-drill-bushing"
+  },
+  {
+    "id": "clamping-strap",
+    "name": "Clamping Strap & Step Block Set",
+    "alias": [
+      "Klem Tali Baji",
+      "Clamp Strap Mesin",
+      "Strap Clamp Gigi Tangga"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-machining",
+      "jig-drilling",
+      "jig-assembly"
+    ],
+    "functions": [
+      "Penjepit"
+    ],
+    "summary": "Batang penekan baja berpasangan dengan balok gigi bertingkat untuk mencekam benda kerja berbagai ketinggian.",
+    "description": "Sistem pengencangan mekanis serbaguna yang terdiri dari pelat jepit tebal berlubang lonjong, t-bolt, dan blok tangga gerigi penyesuai tinggi pijakan tumit klem.",
+    "howItWorks": "Ujung depan strap diletakkan di atas benda kerja, ujung belakang bersandar di anak tangga step block. Baut T-slot di tengah dikencangkan menggunakan kunci torsi.",
+    "materials": [
+      "S45C / S50C Quenched & Tempered",
+      "Baja Paduan 40Cr"
+    ],
+    "specs": [
+      {
+        "label": "Kekerasan batang strap",
+        "value": "32–38 HRC"
+      },
+      {
+        "label": "Ukuran ulir baut T",
+        "value": "M12, M16, M20 standar meja mesin"
+      },
+      {
+        "label": "Beban torsi pengencangan baut",
+        "value": "80 – 250 Nm"
+      }
+    ],
+    "automotiveUse": [
+      "Pencekam manual benda kerja uji coba die casting",
+      "Pencekam fixture plate di atas meja CNC"
+    ],
+    "commonIssues": [
+      "Baut T-slot melar atau ulir aus akibat torsi berlebih",
+      "Slip gigi tangga bila posisi miring"
+    ],
+    "related": [
+      "v-block",
+      "toggle-clamp",
+      "hydraulic-clamp",
+      "support-pad-rest-button"
+    ],
+    "modelId": "model-clamping-strap"
+  },
+  {
+    "id": "go-no-go-gauge-pin",
+    "name": "Go / No-Go Gauge Pin Unit",
+    "alias": [
+      "Pin Ukur Go No-Go",
+      "Plug Gauge Terintegrasi",
+      "Kaliber Batas Lubang"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pengukur"
+    ],
+    "summary": "Pin kaliber presisi dua batas ukuran untuk verifikasi cepat batas toleransi diameter dan posisi lubang.",
+    "description": "Unit pin kaliber verifikasi dimensi lubang part otomotif. Sisi hijau (Go) harus masuk mulus ke lubang, sedangkan sisi merah (No-Go) tidak boleh masuk bila benda memenuhi spesifikasi.",
+    "howItWorks": "Petugas QA memasukkan pin uji ke dalam lubang part yang terpasang di checking fixture: bila pin Go masuk dan No-Go tertahan, lubang part dinyatakan PASS (OK).",
+    "materials": [
+      "SUJ2 Heat Treated",
+      "Tungsten Carbide (Karbida Semen)",
+      "Baja Paduan SKH51"
+    ],
+    "specs": [
+      {
+        "label": "Toleransi kalibrasi pin",
+        "value": "Class X / Class Y standar ISO (±0.001 mm)"
+      },
+      {
+        "label": "Kekerasan mata ukur",
+        "value": "≥ 64 HRC / 1500 HV (Carbide)"
+      },
+      {
+        "label": "Kekasaran permukaan ukur",
+        "value": "Ra 0.1 µm"
+      }
+    ],
+    "automotiveUse": [
+      "Pemeriksaan lubang baut bracket kaliper rem",
+      "Inspeksi toleransi diameter lubang bushing sasis"
+    ],
+    "commonIssues": [
+      "Keausan mikron pada sisi Go akibat gesekan berulang",
+      "Jatuh membentur lantai merusak ujung silinder"
+    ],
+    "related": [
+      "contour-gauge-profile-block",
+      "locating-pin-round",
+      "locating-pin-diamond",
+      "dial-indicator-bracket"
+    ],
+    "modelId": "model-go-no-go-gauge-pin"
+  },
+  {
+    "id": "contour-gauge-profile-block",
+    "name": "Contour Gauge Profile Block",
+    "alias": [
+      "Blok Profil Kontur",
+      "Profile Template Check",
+      "Blok Pemeriksa Celah-Rata"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pengukur",
+      "Pemandu"
+    ],
+    "summary": "Blok berprofil 3D identik lekuk bodi untuk memeriksa kesesuaian celah (gap) dan kerataan (flushness).",
+    "description": "Blok acuan presisi yang dimesin sesuai kontur nominal 3D panel bodi mobil dengan celah offset standar untuk diukur celahnya menggunakan feeler gauge.",
+    "howItWorks": "Benda kerja dijepit pada checking fixture. Blok profil berengsel ditutupkan di atas permukaan part, lalu celah offset nominal diukur dengan taper gauge atau sensor dial.",
+    "materials": [
+      "Resin Polimer RenShape / Ureol BM5460",
+      "Aluminium AlMgSi1",
+      "Baja S50C"
+    ],
+    "specs": [
+      {
+        "label": "Toleransi kontur permesinan CNC",
+        "value": "±0.05 mm terhadap data CAD 3D"
+      },
+      {
+        "label": "Offset celah nominal inspeksi",
+        "value": "3.00 mm ± 0.02 mm"
+      },
+      {
+        "label": "Stabilitas termal dimensi",
+        "value": "Koefisien muai rendah (CTE < 40×10⁻⁶/K)"
+      }
+    ],
+    "automotiveUse": [
+      "Pemeriksaan celah kontur panel pintu mobil terhadap bodi",
+      "Inspeksi flushness tepi bumper terhadap lampu"
+    ],
+    "commonIssues": [
+      "Goresan pada permukaan profil resin",
+      "Penyimpangan engsel pemegang blok"
+    ],
+    "related": [
+      "go-no-go-gauge-pin",
+      "dial-indicator-bracket",
+      "support-pad-rest-button",
+      "locating-pin-round"
+    ],
+    "modelId": "model-contour-gauge-profile-block"
+  },
+  {
+    "id": "quick-change-plate",
+    "name": "Quick-Change Receiver Plate",
+    "alias": [
+      "Pelat Ganti Cepat",
+      "Zero-Point Clamping Plate",
+      "Modul Pallet Kunci Cepat"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-machining",
+      "jig-welding",
+      "jig-assembly",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pemandu",
+      "Penjepit"
+    ],
+    "summary": "Sistem pelat kopling titik nol pneumatik untuk bongkar-pasang fixture dalam hitungan detik.",
+    "description": "Sistem modul subplate yang mengunci pull-stud penepat fixture secara pneumatik dengan akurasi pengulangan sub-mikron, memangkas waktu setup pergantian model part.",
+    "howItWorks": "Fixture yang terpasang stud dijatuhkan ke dalam modul receiver plate; mekanisme baji internal langsung mencengkeram stud secara otomatis dengan gaya pegas kokoh.",
+    "materials": [
+      "Baja Tahan Karat Presisi Case Hardened 1.4112",
+      "Bodi Baja Paduan 42CrMo4"
+    ],
+    "specs": [
+      {
+        "label": "Akurasi repetisi posisi",
+        "value": "< 0.005 mm"
+      },
+      {
+        "label": "Gaya penguncian mekanis",
+        "value": "10 kN – 40 kN"
+      },
+      {
+        "label": "Tekanan buka pneumatik",
+        "value": "5 – 8 bar"
+      }
+    ],
+    "automotiveUse": [
+      "Pergantian cepat fixture pengelasan fleksibel robot multi-model",
+      "Palletizing pergantian part CNC milling"
+    ],
+    "commonIssues": [
+      "Kontaminasi serpihan logam masuk ke lubang receiver",
+      "Keausan cincin pengunci bola baja"
+    ],
+    "related": [
+      "base-plate",
+      "fixture-key-tenon",
+      "swing-clamp",
+      "hydraulic-clamp"
+    ],
+    "modelId": "model-quick-change-plate"
+  },
+  {
+    "id": "fixture-key-tenon",
+    "name": "Fixture Key & Tenon",
+    "alias": [
+      "Pasak T-Slot Fixture",
+      "Kunci Alur Meja",
+      "Alignment Tenon"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-machining",
+      "jig-drilling",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pemandu"
+    ],
+    "summary": "Pasak baja persegi presisi untuk menyelaraskan fixture sejajar sempurna dengan alur meja T-slot mesin.",
+    "description": "Blok pasak kecil berkepala dua yang terpasang di bagian bawah subplate fixture untuk masuk pas ke dalam parit T-slot meja kerja mesin milling CNC.",
+    "howItWorks": "Satu paruh tenon dibaut di parit bawah base plate, paruh lainnya meluncur masuk ke slot T meja mesin, otomatis menyejajarkan sumbu koordinat fixture dengan sumbu mesin.",
+    "materials": [
+      "S45C / S50C Quenched",
+      "SCM420 Case Hardened"
+    ],
+    "specs": [
+      {
+        "label": "Toleransi lebar pasak",
+        "value": "h6 / js6 (misal 18.0 mm -0.011/0)"
+      },
+      {
+        "label": "Kekerasan",
+        "value": "50–55 HRC"
+      },
+      {
+        "label": "Ketegaklurusan sisi pasak",
+        "value": "0.005 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Penjajaran fixture milling kepala silinder pada alur meja mesin",
+      "Penyelarasan meja rotary 5-axis"
+    ],
+    "commonIssues": [
+      "Ujung pasak gumpil akibat benturan saat fixture diturunkan ke meja",
+      "Baut pengikat tenon kendor"
+    ],
+    "related": [
+      "base-plate",
+      "quick-change-plate",
+      "locating-ring",
+      "clamping-strap"
+    ],
+    "modelId": "model-fixture-key-tenon"
+  },
+  {
+    "id": "dial-indicator-bracket",
+    "name": "Dial Indicator Mounting Bracket",
+    "alias": [
+      "Dudukan Dial Gauge",
+      "Sensor Bracket Fixture",
+      "Braket Indikator Celah"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-checking",
+      "jig-inspection"
+    ],
+    "functions": [
+      "Pengukur",
+      "Pemandu"
+    ],
+    "summary": "Braket pengatur posisi kaku untuk memegang sensor dial indicator atau probe digital secara stabil.",
+    "description": "Dudukan penyangga presisi yang dapat disetel halus untuk menempatkan jarum pengukur dial indicator atau sensor jarak elektronik tegak lurus pada titik ukur part.",
+    "howItWorks": "Dibaut kokoh pada pelat dasar fixture. Batang lengan disetel hingga ujung plunger dial indicator menyentuh titik datum part dengan pre-load terkalibrasi.",
+    "materials": [
+      "Aluminium Paduan Al7075-T6",
+      "Baja Paduan S45C"
+    ],
+    "specs": [
+      {
+        "label": "Diameter klem batang sensor",
+        "value": "Ø 8.0 mm (H7) / Ø 9.52 mm (3/8 inci)"
+      },
+      {
+        "label": "Mekanisme fine-adjustment",
+        "value": "Baut ulir mikro pitch 0.25 mm"
+      },
+      {
+        "label": "Defleksi lengan di bawah beban 1N",
+        "value": "< 0.001 mm"
+      }
+    ],
+    "automotiveUse": [
+      "Pemantauan simpangan ketebalan piringan rem cakram",
+      "Pengukuran gap panel kap bagasi di lini QC"
+    ],
+    "commonIssues": [
+      "Getaran melonggarkan sekrup pengunci halus",
+      "Braket terbentur part saat bongkar muat"
+    ],
+    "related": [
+      "contour-gauge-profile-block",
+      "go-no-go-gauge-pin",
+      "base-plate",
+      "support-pad-rest-button"
+    ],
+    "modelId": "model-dial-indicator-bracket"
+  },
+  {
+    "id": "welding-copper-backing-shoe",
+    "name": "Welding Copper Backing Shoe",
+    "alias": [
+      "Sepatu Tembaga Las",
+      "Chill Block Tembaga",
+      "Backing Bar Spot Welding"
+    ],
+    "categoryIds": [
+      "jig-fixture"
+    ],
+    "branchIds": [
+      "jig-welding"
+    ],
+    "functions": [
+      "Pemandu",
+      "Pendingin",
+      "Penjepit"
+    ],
+    "summary": "Blok tembaga penghantar panas dan arus listrik tinggi untuk menopang sambungan pengelasan bodi mobil.",
+    "description": "Blok tembaga paduan khusus tahan panas yang menempel di belakang area sambungan las bodi mobil, berfungsi meredam panas berlebih dan mencegah tembusan las.",
+    "howItWorks": "Benda kerja dijepit rapat melawan backing shoe tembaga. Konduktivitas tembaga yang sangat tinggi menyerap kelebihan panas las secara cepat dan mendistribusikan arus pentanahan.",
+    "materials": [
+      "Tembaga Kromium Zirkonium CuCr1Zr",
+      "Tembaga Berilium C17510"
+    ],
+    "specs": [
+      {
+        "label": "Konduktivitas listrik",
+        "value": "≥ 80% IACS"
+      },
+      {
+        "label": "Kekerasan",
+        "value": "75–85 HRB"
+      },
+      {
+        "label": "Titik pelunakan termal",
+        "value": "> 500 °C"
+      }
+    ],
+    "automotiveUse": [
+      "Penahan las robotik laser pilar tengah bodi",
+      "Backing plate las titik floor pan kendaraan listrik"
+    ],
+    "commonIssues": [
+      "Penempelan percikan las (spatter)",
+      "Deformasi permukaan kontak akibat panas siklus tinggi"
+    ],
+    "related": [
+      "base-plate",
+      "toggle-clamp",
+      "support-pad-rest-button",
+      "swing-clamp"
+    ],
+    "modelId": "model-welding-copper-backing-shoe"
+  }
+]

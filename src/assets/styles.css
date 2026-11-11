@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #F3F5F6;
+  --surface-main: #FFFFFF;
+  --surface-elevated: #E7ECEF;
+  --border-main: #CAD2D7;
+  --text-main: #203039;
+  --text-sub: #5B6C76;
+  --accent-main: #9C5A16;
+}
+
+html.dark {
+  --bg-main: #101820;
+  --surface-main: #19252F;
+  --surface-elevated: #263640;
+  --border-main: #405160;
+  --text-main: #E9EFF2;
+  --text-sub: #A8B7BE;
+  --accent-main: #E5A34B;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Custom scrollbar industrial */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #405160;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5A34B;
+}
+
+/* model-viewer default styling */
+model-viewer {
+  width: 100%;
+  height: 100%;
+  --poster-color: transparent;
+  background-color: transparent;
+}
